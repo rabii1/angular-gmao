@@ -1,0 +1,470 @@
+.button{margin-left: 20px;}
+.button-items{
+    text-align: right;
+    padding: 40px;
+}
+
+
+.list-unstyled{
+    margin-top: 20px;
+    text-decoration: black;
+}
+
+.card-post-author{
+    margin-top: 30px;
+}
+ 
+  
+  .mx-auto{
+      border: 2px solid rgb(223, 218, 218);
+      /* border: 5px solid ; */
+
+  }
+  .card-post{
+      margin-top: 30px;
+    /* margin-right: 80px;   */
+    /* text-align: right; */
+}
+
+
+ .row d-flex mt-3{
+    text-align: center;
+    /* margin-right: 25px; */
+    border-color:#20c997;}
+
+
+    .colp{
+        white-space: nowrap;  
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        text-overflow:ellipsis;
+        text-align:center; 
+        clear: both;
+        /* width: 150px;   */
+        /* display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis; */
+    
+
+
+    /* text-overflow: "…"; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;  */
+   }
+   .d-flex{
+    /* font-size: 15px;
+    padding-top: 30px; */
+    /* align: right; */
+    /* margin-right: 70px; */
+}
+.btn:hover{
+cursor: pointer;
+}
+.btn{
+  margin-left: 10px;
+}
+
+  
+/* .well {
+    background-color: #ffffee
+  } */
+  .container{
+    left: 40px; 
+  }
+ .content {
+/* right: 100px;  */
+   /* padding: 15% 15% 15%; */
+  }
+  .input{top: 15;}
+  
+  .search-form {
+    border-radius: 30px 0 0 30px;
+  }
+  
+  /* .input-group {
+    width:60%;
+    text-align: center;
+  } */
+  
+.input-group {
+     width:60%;
+     text-align: center; 
+    /* position: absolute; */
+
+  }
+  
+  #search {
+    border: 2px;
+ 
+  }
+  
+  .search-btn {
+    cursor:pointer;
+    border-radius: 0 30px 30px 0; 
+    background-color:#FDE49C;
+    color:#669;
+    
+  }
+   .col-xs-4{
+     text-align: left;
+
+    /* margin: 65px; */
+  }  
+  .dateadded{ align: center}
+ 
+  .frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50px;
+    /* padding: 10px 25px; */
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background: transparent;
+    /* cursor: pointer; */
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+      inset -7px -7px 10px 0px rgba(0,0,0,.1),7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    text-shadow:  2px 2px 3px rgba(255,255,255,.5),
+                -4px -4px 6px rgba(116, 125, 136, .2);
+    outline: none;
+  }
+  
+/* 3 */
+.btn-3 {
+  background-color: #57CC99;
+   color: #d6e7e7;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: #57CC99;
+  transition: all 0.3s ease;
+}
+.btn-3:before{
+   height: 0%;
+   width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover:before {
+  height: 100%;
+}
+.btn-3:hover:after {
+  width: 100%;
+}
+.btn-3:hover{
+  background: transparent;
+}
+.btn-3 span:hover{
+  color: #80ED99;
+}
+.btn-3 span:before,
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: #57CC99;
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  height: 2px;
+  width: 0%;
+}
+.btn-3 span:hover:before {
+  height: 100%;
+}
+.btn-3 span:hover:after {
+  width: 100%;
+}
+
+/* 4 */
+.btn-4 {
+  background-color: #ffc1e0;
+   color: #ff84c1;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-4 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-4:before,
+.btn-4:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: #f0094a;
+  transition: all 0.3s ease;
+}
+.btn-4:before{
+   height: 0%;
+   width: 2px;
+}
+.btn-4:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-4:hover:before {
+  height: 100%;
+}
+.btn-4:hover:after {
+  width: 100%;
+}
+.btn-4:hover{
+  background: transparent;
+}
+.btn-4 span:hover{
+  color: #f0094a;
+}
+.btn-4 span:before,
+.btn-4 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: #f0094a;
+  transition: all 0.3s ease;
+}
+.btn-4 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-4 span:after {
+  height: 2px;
+  width: 0%;
+}
+.btn-4 span:hover:before {
+  height: 100%;
+}
+.btn-4 span:hover:after {
+  width: 100%;
+}
+  
+    /*5 80ED99*/ 
+    .btn-5 {
+  background-color: #ffff8a;
+   color: #ffb64d;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-5 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-5:before,
+.btn-5:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: #ffff8a;
+  transition: all 0.3s ease;
+}
+.btn-5:before{
+   height: 0%;
+   width: 2px;
+}
+.btn-5:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-5:hover:before {
+  height: 100%;
+}
+.btn-5:hover:after {
+  width: 100%;
+}
+.btn-5:hover{
+  background: transparent;
+}
+.btn-5 span:hover{
+  color: #ffb64d;
+}
+.btn-5 span:before,
+.btn-5 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: #ffff8a;
+  transition: all 0.3s ease;
+}
+.btn-5 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-5 span:after {
+  height: 2px;
+  width: 0%;
+}
+.btn-5 span:hover:before {
+  height: 100%;
+}
+.btn-5 span:hover:after {
+  width: 100%;
+}
+
+
+/***** btn filtre periode *******/
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+button {
+  /* margin: 20px; */
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  /* cursor: pointer; */
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+/* 6 */
+.btn-6 {
+background: rgb(247,150,192);
+background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
+  line-height: 42px;
+  /* padding: 0; */
+  border: none;
+}
+.btn-6 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-6:before,
+.btn-6:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 1px;
+ box-shadow:
+   -1px -1px 20px 0px rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%,
+   -4px -4px 5px 0pxrgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%,
+   7px 7px 20px 0px rgba(0,0,0,.4),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+}
+.btn-6:before {
+  right: 0;
+  top: 0;
+  transition: all 500ms ease;
+}
+.btn-6:after {
+  left: 0;
+  bottom: 0;
+  transition: all 500ms ease;
+}
+.btn-6:hover{
+  background: transparent;
+  color: #76aef1;
+  box-shadow: none;
+}
+.btn-6:hover:before {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6:hover:after {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6 span:before,
+.btn-6 span:after {
+  position: absolute;
+  content: "";
+  box-shadow:
+   -1px -1px 20px 0px rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%,
+   -4px -4px 5px 0px rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%,
+   7px 7px 20px 0px rgba(0,0,0,.4),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+}
+.btn-6 span:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: .5px;
+  transition: all 500ms ease;
+}
+.btn-6 span:after {
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: .5px;
+  transition: all 500ms ease;
+}
+.btn-6 span:hover:before {
+  width: 100%;
+}
+.btn-6 span:hover:after {
+  width: 100%;
+}
+.input-group{
+  background-color:rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%;
+}
+
+/********** Icon size ********/
+.mdi{
+  font-size: 17px;
+}
+/************* pagination cursor************/
+.custom-select:hover{    cursor:pointer;
+}
+.my-1{
+  color:#005F99;
+}
+/* .button-items{
+  padding-right: 20px;
+} */
