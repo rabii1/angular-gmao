@@ -2,11 +2,14 @@ pipeline {
   agent any
  
   tools {nodejs "node"}
- 
+   environment {
+        npm_config_cache = 'npm-cache'
+        HOME = '.'
+    }
   stages {
     stage('Example') {
       steps {
-         sh 'npm install -g @angular/cli'
+         
         sh 'npm config ls'
       }
     }
