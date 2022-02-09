@@ -6,8 +6,7 @@ pipeline {
   stages {
     stage('Example') {
       steps {
-        sh 'chown -R 1000150000:0 "/.npm" '
-        sh 'npm install -g @angular/cli'
+         sh 'npm install -g @angular/cli'
         sh 'npm config ls'
       }
     }
