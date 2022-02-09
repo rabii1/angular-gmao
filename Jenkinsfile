@@ -7,10 +7,20 @@ pipeline {
         HOME = '.'
     }
   stages {
-    stage('Example') {
+     stage ('checkout'){
+      steps{
+        checkout scm
+      }
+    }
+    stage('install module') {
       steps {
          
-        sh 'npm config ls'
+        sh 'npm install'
+      }
+    }
+      stage ('build') {
+      steps{
+        sh '$(npm bin)/ng build --prod --build-optimizer'
       }
     }
   }
